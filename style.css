@@ -1,0 +1,93 @@
+
+:root {
+  --background-primary: rgb(199,21,133);
+  --hightlight-primary: #FFDAB9;
+  --title-secondary: #7B68EE;
+}
+
+body {
+
+}
+
+.title-container {
+  height: 48vh;
+  background-color: var(--background-primary);
+}
+
+.title-hello {
+  font-family: 'Corinthia', cursive;
+  font-size: 10rem;
+  font-weight: 700;
+  color: var(--hightlight-primary);
+}
+
+.title-name {
+  background-color: var(--background-primary);
+  color: var(--title-secondary);
+
+  font-family: 'Corinthia', cursive;
+  font-size: 4rem;
+  font-weight: 800;
+
+  position: relative;
+  top: -2.5rem;
+}
+
+.title-tag {
+  font-size: 6rem;
+  font-family: 'Corinthia', cursive;
+  position: relative;
+  top: -3rem;
+}
+
+.about-me-container {
+   height: 20vh;
+   width: 80vw;
+   margin-left: 10vw;
+   color: var(--hightlight-primary);
+}
+
+.about-me-image {
+  width: 20vw;
+  height: 20vh;
+}
+
+.about-me-text {
+  color: var(--title-secondary);
+  font-family: 'Corinthia', cursive;
+  font-size: 2rem;
+
+}
+
+.acheivement-title {
+  color: var(--hightlight-primary);
+  font-family: 'Corinthia', cursive;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.inspiation-text {
+  font-family: 'Corinthia', cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--title-secondary);
+}
+
+.contact-me-container {
+  margin-top: 10vh;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Corinthia', cursive;
+}
+
+.contact-me.icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.contact-me-text {
+  color: var(--title-secondary);
+  font-family: 'Corinthia', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+}
